@@ -1,0 +1,562 @@
+*{}
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+     width: 100%;
+    height: 100%;
+}
+body{
+    width: 100%;
+    height: 100%;
+}q
+
+div#navbarsExample03 {
+    justify-content: flex-end;
+}
+.chucam{
+    background-color: #08090D;
+}
+.menu a h3 {
+    margin-top: -8px;
+    color: #FFFFFF;
+    padding: 17px 30px;
+    background: #EC6952;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 600;
+}
+
+.navbar-dark .navbar-nav .active a.nav-link {
+    text-align: center;
+    color: #EC6952;
+}
+
+.navbar-dark .navbar-nav a.nav-link {
+    color: #ffffff;
+    padding: 15px;
+    font-size: 13px;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #EC6952;
+    transition: 0.4s;
+}
+
+li.btn.btn-outline-danger {
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+    border: 1px solid white;
+    margin-top: 7px;
+    padding: 6px 10px;
+}
+
+
+li.btn.btn-outline-danger:hover {
+    background: #EC6952;
+    border: 1px solid #EC6952;
+}
+
+.menu li.nav-item {
+    margin-right: 15px;
+    text-align: center;
+}
+
+li.btn.btn-outline-danger {
+    height: 35px;
+}
+a.navbar-brand {
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown-menu.show {
+    left: -98px;
+}
+
+ .tren{
+    width: 100%;
+    height: 100%;
+    position: relative;
+ }
+.carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
+.logo {
+    display: inline-block;
+}
+
+nav.navbar.navbar-expand-md.navbar-dark {
+}
+
+.phantren {
+    position: relative;
+}
+
+.menu {
+    position: fixed;
+    width: 100%;
+    z-index: 20;
+}
+@media (min-width: 992px){
+    nav.navbar.navbar-expand-md.navbar-dark{
+        float:right
+    }
+}
+@media (max-width: 992px){
+    .container{
+        text-align:center
+    }
+   
+
+       .banner .carousel-item{
+    height: 625px;
+    width: 1000px;
+    }
+}
+@media (max-width: 768px){
+
+    
+    nav.navbar.navbar-expand-md.navbar-dark{
+    position: relative;
+    width: 100%;
+    background: #253340;
+    padding: 0;
+    }
+    .logo{
+    }
+    .text h1.mb-3{
+        font-size: 32px !important;
+    }
+    .col-sm-10.offset-1.text-center {
+    top: -72px;
+}
+button.navbar-toggler {
+    position:absolute;
+    top: -50px;
+    right: 0;
+    border: navajowhite;
+}
+.menu li.nav-item {
+    margin-right:0;
+   
+}
+.menu1 {
+    
+    width: 100%;
+   
+}
+ul.werwerwer {
+    text-align: center !important;
+    margin-top: 0 !important;
+    margin-left: 0 !important;
+    display: none;
+    width: 100% !important;
+    background: none !important;
+}
+.slide2 .content {
+    margin-left: 0;
+    font-size: 15px;
+}
+.slide2 img{
+    float: none !important;
+}
+.slide2 .carousel-item.text-left{
+    text-align: center !important;
+}
+.slide2 p.tacgia2 {
+    margin-left: 0 !important;
+}
+.slide2 p.detail {
+    margin-left: 0 !important;
+}
+}
+
+a.carousel-control-prev.banner  {
+    display: none;
+}
+
+ul.carousel-indicators.banner {
+    display: none;
+}
+
+a.carousel-control-next.banner {
+    display: none;
+}
+.text {
+    width: 100%;
+    position: absolute;
+    z-index: 4;
+    top: 30%;
+}
+
+.text h1.mb-3 {
+    color: white;
+    font-size: 46px;
+    font-weight: 700;
+}
+
+.text p.mb-4 {
+    color: #CACACA;
+    max-width: 600px;
+    margin: auto;
+    font-size: 18px;
+}
+
+.text .btn.btn-success.mb-3 {
+    background: #EC6952;
+    border: none;
+    padding: 10px 25px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.text a {
+    color: #A1A0A0;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.text a:hover {
+    color: #FFFFFF;
+}
+
+.text .btn.btn-success.mb-3:hover {background: #E9553B;}
+
+.phan1 p {
+    color: #9D9D9D;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.phan1 h2.mb-3 {
+    color: #444444;
+    font-weight: 400;
+}
+
+.phan1 h2.mb-2 {
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.menu .dropdown-menu.show {
+    margin-top: -15px;
+}
+
+.menu1 a {
+    text-decoration: none;
+}
+
+.menu1 {
+    position: relative;
+    width: 100%;
+    margin: auto;
+}
+
+ul.werwerwer {
+    text-align: left;
+    background: #383d41;
+    list-style-type: none;
+    display: none;
+    margin-top: -13px;
+    margin-left: -90px;
+    width: 150px;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+.menu1:hover .werwerwer {
+    display: block;
+}
+
+
+.phan2 img {
+    float: left;
+    margin-right: 10px;
+    width: auto;
+    height: auto;
+}
+
+.text2 {margin-left: 90px;background: #e9ecef;border-radius: 5px;padding: 10px;}
+
+.container .row .col-lg-4 h3.mb-4 {
+    color: #5F7990;
+    font-weight: 400;
+    font-size: 26px;
+}
+
+.phan2 .text2 p.mb-2 {font-style: italic;}
+
+.phan2 p.mb-5 a {
+    color: #ec6952;
+}
+
+.phan2 .col-lg-4 {
+    color: #616161;
+}
+
+.phan2 .text2 a {
+    color: #ec6952;
+    font-style: normal;
+}
+
+p.tacgia {
+    font-size: 14px;
+    color: #B199A5;
+    margin: 0;
+}
+
+.phan2 .col-lg-8 p {
+    color: #C7BAB4;
+    font-size: 14px;
+}
+
+.phan2 .container {
+}
+
+hr {margin-top: 80px;}
+
+p.mb5 a {
+    color: red;
+}
+
+.phan2 .row .col-lg-8 p a {
+    color: #c7bab4;
+}
+
+.phan2 .row .col-lg-8 p a:hover {
+    color: #ec6952;
+}
+
+.menu1 hr {
+    margin: 0;
+}
+
+.menu1 li a {
+    color: white;
+}
+
+.phan2 .row .col-lg-12.text-center {
+    margin: 90px 0;
+}
+
+ul.carousel-indicators.slide2 {
+    display: flex;
+    bottom: -60px;
+}
+
+
+a.carousel-control-prev.slide2 {
+    display: none;
+}
+
+a.carousel-control-next.slide2 {
+    display: none;
+}
+
+.slide2 img {
+    float: left;
+}
+
+.slide2 .icon {
+    float: left;
+    position: absolute;
+    font-size: 22px;
+}
+
+.slide2 p.mb-4 {margin-left: 45px;font-size: 20px;}
+
+.content {
+    margin-left: 170px;
+}
+
+.slide2 p.tacgia2 {
+    margin-left: 45px;
+    margin-bottom: 0;
+    color: #ec6952;
+}
+
+p.detail {
+    margin-left: 45px;
+}
+
+.slide2 li.active {
+    background: #ec6952;
+}
+
+.carousel-indicators li {
+    background: #CCCCCC;
+}
+
+.phan3 h3 {
+    padding-bottom: 60px;
+}
+
+.phan3.text-center {
+    padding: 80px 0;
+}
+
+.phan3 p.my-4 {
+    font-size: 20px;
+}
+
+
+.end a {
+    color: #ec6952;
+    font-size: 18px;
+}
+.phan4{
+    background-image: url(27.jpg);
+    background-size: cover;
+    height: 100%;
+    padding-bottom: 145px;
+}
+
+.phan4 h3 {
+    padding-top: 90px;
+    color: #FFFFD9;
+    font-size: 36px;
+    margin-bottom: 60px;
+    font-weight: 300;
+}
+
+
+.phan4 .info {
+    color: #ffffd9;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.phan4 .btn.btn-danger {
+    font-size: 20px;
+    padding: 8px 30px;
+}
+
+.phan5 p.tittle {
+    font-size: 19px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    color: white;
+}
+
+.phan5 ul {
+    list-style-type: none;
+}
+
+.phan5 {
+    padding-top: 40px;
+    padding-bottom: 65px;
+    background: #253340;
+}
+
+.phan5 ul.oknuon li a {
+    color: #6F9AA9;
+    font-size: 14px;
+}
+
+i.fas.fa-caret-right {
+    margin-right: 5px;
+}
+
+.phan5 ul.oknuon li {
+    margin-bottom: 10px;
+}
+
+input#inputPassword2 {
+    width: 280px;
+    margin-right: 5px;
+    background: #E9EAEC;
+}
+
+.phan5 button.btn.btn-primary.mb-2 {
+    background: #5D80A1;
+    border: 1px solid #5D80A1;
+}
+
+.phan5 .col-12.col-lg-6 p {
+    color: #80999F;
+}
+
+.phan5 .icon2 a {
+    color: #B3B2B2;
+    font-size: 22px;
+    margin-right: 22px;
+}
+
+.phan5 .icon2 a:hover {
+    color: #ec6952;
+}
+
+.phan5 button.btn.btn-primary.mb-2:hover {
+    background: #4A6781;
+    transition: 0.4s;
+}
+
+.phan5 a.btn.btn-ghost {
+    width: 220px;
+    border: 1px solid #B3B2B2;
+    color: #B3B2B2;
+    text-align: left;
+}
+
+.phan5 a.btn.btn-ghost:hover {
+    background: #4A6781;
+}
+
+
+.phan5 .col-lg-6 h4 {
+    color: #E9E4D5;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.phan5 i.fas.fa-map-marker-alt {
+    float: left;
+    margin-right: 10px;
+}
+
+.phan5 p.address span {
+    float: left;
+}
+
+.phan5 .col-lg-6 p {
+    color: #92999F;
+}
+
+.phan5 .col-lg-6 p.mail a {
+    color: #4E6376;
+}
+
+.phan5 .col-lg-6 .btn.btn-primary {
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.phan6 span {
+    color: #B3B2B2;
+    font-size: 12px;
+}
+
+.phan6 span a {
+    color: #ec6952;
+    font-size: 12px;
+}
+
+i.fas.fa-phone {
+    margin-right: 2px;
+}
+
+i.far.fa-envelope {
+    margin-right: 2px;
+}
+
+
+
+.phan2 .col-lg-8 img {
+    width: 100%;
+}
